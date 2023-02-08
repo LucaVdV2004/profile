@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html, body {
+  background-image: url(https://t3.ftcdn.net/jpg/02/07/15/44/360_F_207154497_atOiud0GzT2AXRozfh6grud0NKwKEfff.jpg);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+
+div {
+  border: 2px solid #cff10d;
+  background-image: url(https://t3.ftcdn.net/jpg/00/96/89/40/360_F_96894032_R1eY5W4QJZPC8OepL5iJKqBQBaXuvLTC.jpg);
+  padding: 23px;
+  margin: 50px 500px 50px 500px;
+  box-shadow: 0 0 100px #9d9d9c;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+}
+
+h1, h2{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  color: B2B2B2;
+  margin: 1px;
+  padding: 1px;
+} p, body{
+  color: DEFCF9;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.demo{
+  font-size:5em;
+  text-align:center;
+  padding: 50px;
+}
+
+.rainbow{
+  animation: rainbow 3s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+  100%,0%{
+    color: rgb(233, 208, 14);
+  }
+  75%{
+    color: rgb(241, 230, 170);
+  }
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li {
+  padding : 10px;
+}
